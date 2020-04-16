@@ -11,8 +11,8 @@ public class ConfigClientRest {
 	String name;
 	
 	@RequestMapping("/getName")
-	public void get() {
-		System.out.println("** name is ** "+name);
+	public String get() {
+		return "** name is ** "+name;
 	}
 
 }
