@@ -29,7 +29,7 @@
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
             <fork>true</fork>
-            <mainClass>spring.config.client.com</mainClass>
+            <mainClass>spring.config.client.com.SpringConfigClient</mainClass>
         </configuration>
           <executions>
             <execution>
